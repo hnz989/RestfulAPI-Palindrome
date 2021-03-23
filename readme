@@ -1,0 +1,28 @@
+For **Problem 1:**
+Given a string _s_, find the longest palindromic substring in _s_. You may assume that the maximum length of _s_ is 1000.
+My soution file name is: testPalindrome.java
+
+For **Problem 2:**
+Write a Spring Boot micro-service that completes the following:
+
+1. Receives string input over an API
+2. Stores the longest palindrome in provided database
+3. Retrieves the stored palindrome over an API
+
+You should be able to run your micro-service locally and use an API client (such as PostMan) to test your results.
+
+The whole RestfulAPI-Palindrome project is the solution.
+This is a SpringBoot project. You can import as existing Maven project.
+
+To test it:
+1. please run the project as Springboot application. 
+2. Open Postman: 
+   1) Test preload palngdrome strings use Get mothod: http://localhost:8080/api/
+   2) Test new input strings use POST mothod: http://localhost:8080/api/
+      use JSON format, for example: {
+	                                     "inputStr": "yyayyupa"
+                                    }
+                                    
+Problem 2/Solution?:
+Have the function BinaryReversal(str) take the str parameter being passed, which will be a positive integer, take its binary representation (padded to the nearest N * 8 bits), reverse that string of bits, and then finally return the new reversed string in decimal form. For example: if str is "47" then the binary version of this integer is 101111 but we pad it to be 00101111. Your program should reverse this binary string which then becomes: 11110100 and then finally return the decimal version of this string, which is 244.
+My soution file name is: ReverseBinary.java
