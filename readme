@@ -2,7 +2,7 @@ For **Problem 1:**
 Given a string _s_, find the longest palindromic substring in _s_. You may assume that the maximum length of _s_ is 1000.
 My soution file name is: testPalindrome.java
 
-For **Problem 2:**
+For **Microservice Problem:**
 Write a Spring Boot micro-service that completes the following:
 
 1. Receives string input over an API
